@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons.css">
     <link rel="icon" href="https://files.secure.website/wscfus/10009610/26141019/music-logo-w967-o.png" type="image/x-icon" />
     
@@ -19,7 +20,7 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
@@ -31,11 +32,18 @@
                 </li>
             </ul>
             <!-- end nav -->
-            <!-- begin:search bottom -->
+                <!-- mobile menu-button -->
+            <div id = "mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
+
+            <!--search bottom -->
             <div class="search-bottom">
                 <i class="search-icon ti-search"></i>
             </div>
-            <!-- end:search bottom -->
+            
+           
         </div>
 
         <div id="slider">
@@ -52,15 +60,15 @@
                     <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 
                     <div class="row members-list">
-                        <div class="col col-third text-center">
+                        <div class=" col col-third s-col-full mt-32 text-center">
                             <p class="member-name">Name</p>
                             <img src="./assets/img/member/member1.jpg" alt="Name" class="member-img">
                     </div> 
-                    <div class="col col-third text-center">
+                    <div class=" col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/member/member1.jpg" alt="Name" class="member-img">
                 </div>     
-                <div class="col col-third text-center">
+                <div class=" col col-third s-col-full mt-32 text-center">
                     <p class="member-name">Name</p>
                     <img src="./assets/img/member/member1.jpg" alt="Name" class="member-img">
             </div>  
@@ -81,31 +89,31 @@
                         <!-- place -->
 
                     <div class="row place-list">
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
                             <div class="place-content">
                             <h3 class="place-heading">New York</h3>
                             <p class="place-time">Fri 27 Nov 2016</p>
                             <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <button class="place-buy-ticket js-buy-ticket">Buy Tickets</button>
+                            <button class="place-buy-ticket s-full-width  js-buy-ticket">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="col col-third">
+                    <div class="col col-third s-col-full mt-16">
                         <img src="./assets/img/places/place2.jpg" alt="New York" class="place-img">
                         <div class="place-content">
                         <h3 class="place-heading">New York</h3>
                         <p class="place-time">Fri 27 Nov 2016</p>
                         <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button class="place-buy-ticket js-buy-ticket">Buy Tickets</button>
+                        <button class="place-buy-ticket s-full-width  js-buy-ticket">Buy Tickets</button>
                     </div>
                 </div>
-                <div class="col col-third">
+                <div class="col col-third s-col-full mt-16">
                     <img src="./assets/img/places/place3.jpg" alt="New York" class="place-img">
                     <div class="place-content">
                     <h3 class="place-heading">New York</h3>
                     <p class="place-time">Fri 27 Nov 2016</p>
                     <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                    <button class="place-buy-ticket js-buy-ticket">Buy Tickets</button>
+                    <button class="place-buy-ticket s-full-width  js-buy-ticket">Buy Tickets</button>
                 </div>
             </div>
                 
@@ -118,18 +126,18 @@
                     <h2 class="section-heading">CONTACT</h2>
                     <p class="section-subheading">Fan? Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col s-col-full contact-info">
                          <p><i class="ti-location-pin"></i>Chicago, US</p>
-                         <p><i class="ti-mobile"></i> Phone: +00 151515</p>
-                         <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                         <p><i class="ti-mobile"></i> Phone: <a href="tel:+00 151515">+00 151515</a></p>
+                         <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col s-col-full contact-form">
                     <form action="">
                         <div class="row ">
-                            <div class="col col-half">
+                            <div class="col s-col-full">
                                 <input type="text" name="" placeholder="Name" required id="" class="form-control">
                             </div>
-                            <div class="col col-half">
+                            <div class="col col-half s-col-full s-mt-8">
                                 <input type="email" name="" placeholder="Email" required id="" class="form-control">
                             </div>
                       
@@ -139,7 +147,7 @@
                                 <input type="text" name="" placeholder="Message" required id="" class="form-control">
                             </div>
                         </div>
-                        <input class = "form-submit-btn mt-16" type="submit" value="SEND">
+                        <input class = "form-submit-btn mt-16 s-full-width" type="submit" value="SEND">
                     </form>
                 </div>
                 </div>
@@ -179,7 +187,7 @@
                 <input id = "ticket-quantity" type="text" class="modal-input" placeholder="How many?">
                 
                 <label for="ticket-email" class="modal-lable">
-                    <i class="ti-user"></i>
+                          <i class="ti-user"></i>
                     Send To                </label>
                 <input id = "ticket-email" type="text" class="modal-input" placeholder="Enter email">
             <button id="buy-tickets">
@@ -217,6 +225,34 @@
                 event.stopPropagation()
         })
     </script>
+    <script>
+        var header = document.getElementById('header'); // lấy id = header
+        var mobileMenu = document.getElementById('mobile-menu'); // lấy id = header
+           // đóng mở mobile menu
+        mobileMenu.onclick = function(){
+                var isClose = header .clientHeight === 46;
+                if(isClose){
+                    header.style.height = 'auto';
+                }else{
+                    header.style.height =null;
+                }
+        }
+        // tự động chọn khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        for ( var i = 0; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function(event){
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu){
+                    event.preventDefault();
+                }else{
+                }
+                header.style.height =null;
+            }
+        }
+        
+</script>
     
 </body>
 </html>
