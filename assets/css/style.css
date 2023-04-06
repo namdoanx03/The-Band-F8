@@ -22,6 +22,10 @@ html{
 .mt-16{
     margin-top: 16px !important;
 }
+.mt-32{
+    margin-top: 32px !important;
+}
+
 .row{
     margin-left: -8px;
     margin-right: -8px;
@@ -57,6 +61,7 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
+    
 }
 
 #nav{
@@ -106,17 +111,34 @@ html{
     padding:0 12px;
     line-height: 38px;
 }
+
 #header .search-bottom:hover{
     color:#fff;
     background-color: #f44336;
     cursor: pointer;
 }
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .menu-icon{
+    color: #000
+}
+#header .mobile-menu-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none ;
+}
+
+#header .mobile-menu-btn,
 #header .search-bottom{
     float: right;
     padding: 0 21px;
     
+    
 
 }
+#header .menu-icon,
 #header .search-icon{
     color: #fff;
     font-size: 20px;
@@ -171,12 +193,15 @@ html{
 
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0 112px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 #content .members-list{
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .menber-name{
@@ -223,7 +248,7 @@ html{
 /* place  */
 .place-list{
 
-    margin-top: 32px;
+    margin-top: 16px;
     
 } 
 
@@ -262,6 +287,7 @@ html{
     padding: 11px 16px;
     display: inline-block;
     margin-top: 15px;
+    -webkit-appearance: none;
 }
 .place-buy-ticket:hover{
     color:#000;
